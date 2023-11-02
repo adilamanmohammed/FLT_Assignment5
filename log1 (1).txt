@@ -1,0 +1,71 @@
+Script started on 2023-11-01 03:45:13+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="159" LINES="11"]
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ ls
+1log.txt  README.md  input.txt  log1.txt  main.py  output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ ls
+1log.txt  README.md  input.txt  log1.txt  main.py  output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python3 main.py [K
+  File "/workspaces/FLT_Assignment5/main.py", line 3
+    def remove_unit_productions(grammar)
+                                        ^
+SyntaxError: expected ':'
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python3 main.py
+  File "/workspaces/FLT_Assignment5/main.py", line 40
+    }
+    ^
+SyntaxError: unmatched '}'
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python3 main.py
+  File "/workspaces/FLT_Assignment5/main.py", line 3
+    def remove_unit_productions(grammar:
+                               ^
+SyntaxError: '(' was never closed
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ ls
+1log.txt  README.md  input.txt  log1.txt  main.py  output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ ls
+1log.txt  README.md  input.txt  log1.txt  main.py  output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ lspython3 main.py
+
+After Removing Unit Productions:
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/main.py", line 44, in <module>
+    removed_unit_productions_grammar = remove_unit_productions(example_grammar)
+  File "/workspaces/FLT_Assignment5/main.py", line 23, in remove_unit_productions
+    grammar[non_terminal] = replace_unit_productions(non_terminal, set())
+  File "/workspaces/FLT_Assignment5/main.py", line 18, in replace_unit_productions
+    new_productionsappend(production)
+NameError: name 'new_productionsappend' is not defined. Did you mean: 'new_productions'?
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python3 main.py
+
+After Removing Unit Productions:
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/main.py", line 44, in <module>
+    removed_unit_productions_grammar = remove_unit_productions(example_grammar)
+  File "/workspaces/FLT_Assignment5/main.py", line 25, in remove_unit_productions
+    return dit(grammar)
+NameError: name 'dit' is not defined. Did you mean: 'dir'?
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python3 main.py
+
+After Removing Unit Productions:
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/main.py", line 45, in <module>
+    print_grammr(removed_unit_productions_grammar)
+NameError: name 'print_grammr' is not defined. Did you mean: 'print_grammar'?
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python3 main.py
+
+After Removing Unit Productions:
+<A> ::= a | a <A> | c
+<B> ::= <B> b | b | c
+<C> ::= c
+<S> ::= a <T> a | a a
+<T> ::= <A> <C> | B | <A> <B> | a | c | <B> <C> | a <A>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python3 main.py
+
+After Removing Unit Productions:
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/main.py", line 44, in <module>
+    removed_unit_productions_grammar = remove_unit_productions(example_grammar)
+  File "/workspaces/FLT_Assignment5/main.py", line 23, in remove_unit_productions
+    grammar[non_terminl] = replace_unit_productions(non_terminal, set())
+NameError: name 'non_terminl' is not defined. Did you mean: 'non_terminal'?
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ exit
+
+Script done on 2023-11-01 03:53:35+00:00 [COMMAND_EXIT_CODE="1"]
