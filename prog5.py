@@ -521,7 +521,7 @@ def Main(inputFilePath, outputFilePath):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Pass corret arguements")
+        print("wrong arguments")
         sys.exit(1)
 
     input_filename = sys.argv[1]
