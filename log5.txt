@@ -1,0 +1,304 @@
+Script started on 2023-11-01 08:01:29+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="159" LINES="14"]
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python3 main.py input.txt output.txtclear[Kpython3 main.py input.txt output.txtclear[Kpython main.py[1P.py[1P.py[1P.py[1P.pyt.pye.pymp.py.py[1P.py[1P.py[1Ppy
+<expression> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression>
+<expression> ::= ( <expression> )
+<expression> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= id
+
+After Removing Unit Productions:
+<expression> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression>
+<expression> ::= ( <expression> )
+<expression> ::= id
+
+After Removing Unit Productions:
+<expression> ::= <expression> + <expression>
+<expression> ::= ( <expression> )
+<expression> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py[1P.py[1P.py[1P.pyr.pya.pyi.pyl.py
+Original Grammar:
+<expression> ::= <expression> + <expression>
+<expression> ::= ( <expression> )
+<expression> ::= id
+
+After Removing Unit Productions:
+<expression> ::= <expression> + <expression>
+<expression> ::= ( <expression> )
+<expression> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python trail.py[1Pemp.py
+Original Grammar:
+<S1> ::= <S>
+<S> ::= a <S> b
+<S> ::= id
+
+After Removing Unit Productions:
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression>
+<expression> ::= ( <expression> )
+<expression> ::= id
+
+After Removing Left Recursion:
+expression ::= ( <expression> ) <expression1>
+expression ::= id <expression1>
+expression ::= <expression1> ::= + <expression> <expression1>
+expression ::= <expression1> ::= epsilon
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression>
+<expression> ::= ( <expression> )
+<expression> ::= id
+
+After Removing Left Recursion:
+<expression> ::= ( <expression> ) <expression1>
+<expression> ::= id <expression1>
+<expression1> ::= + <expression> <expression1>
+<expression1> ::= epsilon
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression>
+<expression> ::= ( <expression> )
+<expression> ::= id
+
+After Removing Left Recursion:
+<expression> ::= ( <expression> ) <expression1>
+<expression> ::= id <expression1>
+<expression1> ::=  <expression> <expression1>
+<expression1> ::= epsilon
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression>
+<expression> ::= ( <expression> )
+<expression> ::= id
+
+After Removing Left Recursion:
+<expression> ::= ( <expression> ) <expression1>
+<expression> ::= id <expression1>
+<expression1> ::=  <expression> <expression1>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression>
+<expression> ::= ( <expression> )
+<expression> ::= id
+
+After Removing Left Recursion:
+<expression> ::= ( <expression> ) <expression1>
+<expression> ::= id <expression1>
+<expression1> ::=  <expression> <expression1>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py[Kpython temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression> | ( <expression> ) | id
+
+After Removing Left Recursion:
+<expression> ::= ( <expression> ) <expression1> | id <expression1>
+<expression1> ::= + <expression> <expression1> | + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression> | ( <expression> ) | id
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/temp.py", line 59, in <module>
+    main()
+  File "/workspaces/FLT_Assignment5/temp.py", line 53, in main
+    remove_left_recursion(productions)
+  File "/workspaces/FLT_Assignment5/temp.py", line 33, in remove_left_recursion
+    removed, new_productions_for_Ai, new_variable_and_productions = remove_immediate_left_recursion(Ai, productions[i][1])
+ValueError: not enough values to unpack (expected 3, got 2)
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression> | ( <expression> ) | id
+
+After Removing Left Recursion:
+<expression> ::= ( <expression> ) | id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression> | ( <expression> ) | id
+
+After Removing Left Recursion:
+<expression> ::= ( <expression> ) <expression1> | id <expression1>
+<expression1> ::= + <expression> <expression1>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression> | ( <expression> ) | id
+
+After Removing Left Recursion:
+<expression> ::= ( <expression> ) <expression1> | id <expression1>
+<expression1> ::= + <expression> <expression1> | + id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression> | ( <expression> ) | id
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/temp.py", line 59, in <module>
+    main()
+  File "/workspaces/FLT_Assignment5/temp.py", line 53, in main
+    remove_left_recursion(productions)
+  File "/workspaces/FLT_Assignment5/temp.py", line 33, in remove_left_recursion
+    removed, new_productions_for_Ai, new_variable_and_productions = remove_immediate_left_recursion(Ai, productions[i][1])
+ValueError: not enough values to unpack (expected 3, got 2)
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<expression> ::= <expression> + <expression> | ( <expression> ) | id
+
+After Removing Left Recursion:
+<expression> ::= ( <expression> ) <expression1> | id <expression1>
+<expression1> ::= + <expression> <expression1> | + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py input.txt 
+^CTraceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/temp.py", line 78, in <module>
+  File "/workspaces/FLT_Assignment5/temp.py", line 67, in main
+  File "/workspaces/FLT_Assignment5/temp.py", line 5, in parse_input
+    beta = []
+KeyboardInterrupt
+
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py input.txt 
+Original Grammar:
+<expression> ::= <expression> + <expression> | ( <expression> ) | id
+
+After Removing Left Recursion:
+<expression> ::= ( <expression> ) <expression1> | id <expression1>
+<expression1> ::= + <expression> <expression1> | + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py input.txt [K
+Original Grammar:
+<expression> ::= <expression> + <expression> | ( <expression> ) | id
+
+After Removing Left Recursion:
+<expression> ::= ( <expression> ) <expression1> | id <expression1>
+<expression1> ::= + <expression> <expression1> | + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+Original Grammar:
+<S> ::= a<S>b | id
+<S1> ::= <S>
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/temp.py", line 66, in <module>
+    main()
+  File "/workspaces/FLT_Assignment5/temp.py", line 61, in main
+    new_grammar = remove_left_recursion(grammar)
+  File "/workspaces/FLT_Assignment5/temp.py", line 41, in remove_left_recursion
+    has_left_recursion, new_productions, new_non_terminal_productions = remove_direct_left_recursion(A, new_grammar[A])
+ValueError: not enough values to unpack (expected 3, got 2)
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py
+  File "/workspaces/FLT_Assignment5/temp.py", line 54
+    'S1':['<S>'];
+                ^
+SyntaxError: invalid syntax
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py[1P.py[1P.py[1P.pyr.pyail.py.py[1P.py[1P.py[1Ppy
+Original Grammar:
+<expression> ::= id
+
+After Removing Left Recursion:
+<expression> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python trail.py
+Original Grammar:
+<expression> ::= <expression> + <expression> | ( <expression> ) | id
+
+After Removing Left Recursion:
+<expression> ::= ( <expression> ) <expression1> | id <expression1>
+<expression1> ::= + <expression> <expression1> | + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python trail.py[1Pemp.py
+Original Grammar:
+<expression> ::= <expression> + <expression>
+<expression> ::= ( <expression> )
+<expression> ::= id
+
+After Removing Left Recursion:
+<expression>' ::= epsilon
+<expression>' ::= expression> + <expression>( <expression> )<expression>'
+<expression>' ::= expression> + <expression>id<expression>'
+<expression> ::= ( <expression> )<expression>'
+<expression> ::= id<expression>'
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py input.txt output.txt [K
+Original Grammar:
+<expression> ::= <expression> + <expression>
+<expression> ::= ( <expression> )
+<expression> ::= id
+
+
+Nullable Symbols:
+set()
+
+
+Modified Grammar after unit production and removing unproductive rules:
+<expression> ::= ( <expression> )
+<expression> ::= <expression> + <expression>
+<expression> ::= id
+
+
+Grammar after removing left recursion:
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+
+
+Aftre ordering the non terminals in grammer: 
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py input.txt output.txt
+  File "/workspaces/FLT_Assignment5/temp.py", line 257
+    new_production_rules = unionEps(new_production_rules, nullable_set)
+IndentationError: unexpected indent
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py input.txt output.txt
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/temp.py", line 296, in <module>
+    main_procedure(input_filename, output_filename)
+  File "/workspaces/FLT_Assignment5/temp.py", line 257, in main_procedure
+    new_production_rules = unionEps(new_production_rules, nullable_set)
+NameError: name 'nullable_set' is not defined
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py input.txt output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py input.txt output.txt
+['<expression>', "<expression'>"]
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py input.txt output.txt
+<expression> ::= ( <expression> )
+<expression> ::= <expression> + <expression>
+<expression> ::= id
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+['<expression>', "<expression'>"]
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python temp.py input.txt output.txt
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+['<expression>', "<expression'>"]
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py 
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/code.py", line 22, in <module>
+    with open("input_grammar.txt", "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'input_grammar.txt'
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py 
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/code.py", line 25, in <module>
+    input_grammar = parse_grammar(input_grammar_str)
+NameError: name 'parse_grammar' is not defined
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+<expression> ::= ( <expression> )
+<expression> ::= <expression> + <expression>
+<expression> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+<expression> ::= ( <expression> )
+<expression> ::= <expression> + <expression>
+<expression> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ exit
+
+Script done on 2023-11-01 09:29:30+00:00 [COMMAND_EXIT_CODE="0"]

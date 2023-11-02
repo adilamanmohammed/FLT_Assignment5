@@ -1,0 +1,463 @@
+Script started on 2023-11-01 09:36:54+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="159" LINES="15"]
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+ 
+ Final Productions: 
+ 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+ 
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+ 
+ Final Productions: 
+ 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+ 
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+ 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt [1@2
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/code.py", line 489, in <module>
+    main_procedure(input_filename, output_filename)
+  File "/workspaces/FLT_Assignment5/code.py", line 453, in main_procedure
+    new_production_rules = combineProductionsPostEpsilonElimination(new_production_rules, nullable_set)
+  File "/workspaces/FLT_Assignment5/code.py", line 144, in combineProductionsPostEpsilonElimination
+    symbol_combinations = generateSymbolVariations(production_elements, nullable_symbols)
+NameError: name 'generateSymbolVariations' is not defined. Did you mean: 'generateAllSymbolCombinations'?
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt [1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/code.py", line 491, in <module>
+    main_procedure(input_filename, output_filename)
+  File "/workspaces/FLT_Assignment5/code.py", line 455, in main_procedure
+    new_production_rules = mergeProductionsPostEpsilonElimination(new_production_rules, nullable_set)
+  File "/workspaces/FLT_Assignment5/code.py", line 145, in mergeProductionsPostEpsilonElimination
+    generated_combinations = generateCombinations(symbol_list, nullable_symbols_set)
+NameError: name 'generateCombinations' is not defined. Did you mean: 'generated_combinations'?
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ clear
+[H[2J[3J[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ clearpython code.py input.txt output.txt [1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt clear[K
+[H[2J[3J[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ clearpython code.py input2.txt output.txt clear[Kpython code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt clear[Kpython code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt [1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt [1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt [1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt [1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt [1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<expression> ::= ( <expression> ) <expression>'
+<expression> ::= id <expression>'
+<expression>' ::= + <expression> <expression>'
+<expression>' ::= ε
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt [1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt [1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<expression> ::= ( <expression> ) <expression_prime>
+<expression> ::= id <expression_prime>
+<expression_prime> ::= + <expression> <expression_prime>
+<expression_prime> ::= 
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt [1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt 
+Final Productions: 
+<S1> ::= a <S> b
+<S1> ::= id
+<S> ::= a <S> b
+<S> ::= id
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input2.txt output.txt [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Final Productions: 
+<expression> ::= ( <expression> ) <expression_prime>
+<expression> ::= id <expression_prime>
+<expression_prime> ::= + <expression> <expression_prime>
+<expression_prime> ::= 
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python code.py input.txt output.txt 
+Final Productions: 
+<expression> ::= ( <expression> )
+<expression> ::= id
+<expression> ::= ( <expression> ) <expression'>
+<expression> ::= id <expression'>
+<expression'> ::= + <expression> <expression'>
+<expression'> ::= + <expression>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ exit
+
+Script done on 2023-11-01 10:59:10+00:00 [COMMAND_EXIT_CODE="0"]

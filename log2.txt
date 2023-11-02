@@ -1,0 +1,151 @@
+Script started on 2023-11-01 05:04:51+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="159" LINES="11"]
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py input.txt output.txt [K
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/main.py", line 50, in <module>
+    grammar = read_grammar(input_filename)
+  File "/workspaces/FLT_Assignment5/main.py", line 3, in read_grammar
+    with open(filename, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'input_grammar.txt'
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py input.txt output.txt[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+Modified grammar written to output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py
+Input Grammar:
+<S> ::= <X> <Y>
+<X> ::= <A>
+<A> ::= <B> | a
+<B> ::= b
+<Y> ::= <T>
+<T> ::= <Y> | c
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/main.py", line 40, in <module>
+    modified_grammar = remove_units(input_grammar)
+  File "/workspaces/FLT_Assignment5/main.py", line 18, in remove_units
+    unit_productions = [(k, v[0]) for k, v in grammar.items() if len(v) == 1 and v[0] in grammar]
+  File "/workspaces/FLT_Assignment5/main.py", line 18, in <listcomp>
+    unit_productions = [(k, v[0]) for k, v in grammar.items() if len(v) == 1 and v[0] in grammar]
+TypeError: unhashable type: 'list'
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py input.txt output.txt[K
+Input Grammar:
+<S> ::= <X> <Y>
+<X> ::= <A>
+<A> ::= <B> | a
+<B> ::= b
+<Y> ::= <T>
+<T> ::= <Y> | c
+
+Modified Grammar:
+<S> ::= <X> <Y>
+<X> ::= a | b
+<A> ::= a | b
+<B> ::= b
+<Y> ::= c
+<T> ::= c
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/main.py", line 57, in <module>
+    with open("input_grammar.txt", "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'input_grammar.txt'
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py
+Input Grammar:
+<S> ::= <X> <Y>
+<X> ::= <A>
+<A> ::= <B> | a
+<B> ::= b
+<Y> ::= <T>
+<T> ::= <Y> | c
+
+After Removing Unit Productions:
+<S> ::= <X> <Y>
+<X> ::= <B> | a | b
+<A> ::= a | b
+<B> ::= b
+<Y> ::= <Y> | c | <T>
+<T> ::= c | <T> | <Y>
+
+After Removing Mixed Productions:
+<S> ::= <X> <Y>
+<X> ::= <B> | a | b
+<A> ::= a
+<B> ::= b
+<Y> ::= <Y> | c | <T>
+<T> ::= c | <T> | <Y>
+<C> ::= c
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py
+Input Grammar:
+<S> ::= <X> <Y>
+<X> ::= <A>
+<A> ::= <B> | a
+<B> ::= b
+<Y> ::= <T>
+<T> ::= <Y> | c
+
+Modified Grammar:
+<S> ::= <X> <Y>
+<X> ::= <B> | a | b
+<A> ::= a | b
+<B> ::= b
+<Y> ::= <Y> | c | <T>
+<T> ::= c | <T> | <Y>
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py
+Input Grammar:
+<A> ::= <B> | a
+<B> ::= b
+<S> ::= <X> <Y>
+<T> ::= <Y> | c
+<X> ::= <A>
+<Y> ::= <T>
+
+Modified Grammar:
+<A> ::= a | b
+<B> ::= b
+<S> ::= <X> <Y>
+<T> ::= c
+<X> ::= <B> | a
+<Y> ::= c
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py
+Input Grammar:
+<A> ::= <B> | a
+<B> ::= b
+<S> ::= <X> <Y>
+<T> ::= <Y> | c
+<X> ::= <A>
+<Y> ::= <T>
+
+Modified Grammar:
+<A> ::= a | b
+<B> ::= b
+<S> ::= <X> <Y>
+<T> ::= c
+<X> ::= <B> | a
+<Y> ::= c
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/main.py", line 65, in <module>
+    input_grammar, terminals = parse_grammar(input_grammar_str)
+  File "/workspaces/FLT_Assignment5/main.py", line 5, in parse_grammar
+    left, right = line.split('::=')
+ValueError: not enough values to unpack (expected 2, got 1)
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py
+Input Grammar:
+<A> ::= <B> | a
+<B> ::= b
+<S> ::= <X> <Y>
+<T> ::= <Y> | c
+<X> ::= <A>
+<Y> ::= <T>
+
+Modified Grammar:
+<A> ::= a | b
+<B> ::= b
+<S> ::= <X> <Y>
+<T> ::= c
+<X> ::= <B> | a
+<Y> ::= c
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ exit
+
+Script done on 2023-11-01 05:43:25+00:00 [COMMAND_EXIT_CODE="0"]

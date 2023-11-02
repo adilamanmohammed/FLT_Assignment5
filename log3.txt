@@ -1,0 +1,85 @@
+Script started on 2023-11-01 05:43:37+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="159" LINES="10"]
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py
+Input Grammar:
+<A> ::= <B> | a
+<B> ::= b
+<S> ::= <X> <Y>
+<T> ::= <Y> | c
+<X> ::= <A>
+<Y> ::= <T>
+
+Modified Grammar:
+<A> ::= a | b
+<B> ::= b
+<S> ::= <X> <Y>
+<T> ::= c
+<X> ::= <B> | a
+<Y> ::= c
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py input.txt output.txt[K
+Modified Grammar:
+<B> ::= b
+<X> ::= <B> | a
+<Y> ::= <Y> | c
+<S> ::= <X> <Y>
+<A> ::= b | a
+<T> ::= <T> | c
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/main.py", line 88, in <module>
+    modified_grammar = remove_units(input_grammar)
+  File "/workspaces/FLT_Assignment5/main.py", line 33, in remove_units
+    G_prime[nonterminal] = get_productions(nonterminal)
+  File "/workspaces/FLT_Assignment5/main.py", line 27, in get_productions
+    productions.extend(get_productions(production[0]))
+  File "/workspaces/FLT_Assignment5/main.py", line 27, in get_productions
+    productions.extend(get_productions(production[0]))
+  File "/workspaces/FLT_Assignment5/main.py", line 27, in get_productions
+    productions.extend(get_productions(production[0]))
+  [Previous line repeated 994 more times]
+  File "/workspaces/FLT_Assignment5/main.py", line 26, in get_productions
+    if len(production) == 1 and production[0] in G_prime:
+RecursionError: maximum recursion depth exceeded while calling a Python object
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py
+Modified Grammar:
+<A> ::= b | a
+<B> ::= b
+<S> ::= <X> <Y>
+<T> ::= c | c
+<X> ::= b | a
+<Y> ::= c
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py input.txt output.txt [K
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/main.py", line 323, in <module>
+    if _name_ == "_main_":
+NameError: name '_name_' is not defined. Did you mean: '__name__'?
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py input.txt output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py input.txt output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py input.txt output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py input.txt output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py input.txt output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py input.txt output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py input.txt output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ clear
+[H[2J[3J[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ clearpython main.py input.txt output.txt[K\[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[K[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python main.py[C[C input.txt output.txt[C[1@3
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/main.py", line 323, in <module>
+    if _name_ == "_main_":
+NameError: name '_name_' is not defined. Did you mean: '__name__'?
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ 
+[K[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python3 main.py input.txt output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python3 main.py input.txt output.txt
+Traceback (most recent call last):
+  File "/workspaces/FLT_Assignment5/main.py", line 290, in <module>
+    if _name_ == "_main_":
+NameError: name '_name_' is not defined. Did you mean: '__name__'?
+[0;32m@adilamanm01 [1;31m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ python3 main.py input.txt output.txt
+[0;32m@adilamanm01 [0m➜ [1;34m/workspaces/FLT_Assignment5 [0;36m([1;31mmain[0;36m) [0m$ exit
+
+Script done on 2023-11-01 06:07:07+00:00 [COMMAND_EXIT_CODE="0"]
